@@ -1,0 +1,104 @@
+.App {
+  width: 1200px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.frame {
+  width: 1200px;
+  height: 800px;
+  background-image: url(./assets/travel--bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 3;
+}
+
+.logo--section {
+position: fixed;
+width: 100%;
+display: flex;
+z-index: 5;
+}
+
+.logo--section > h4 {
+  font-style: italic;
+}
+
+.logo {
+  width: 30%;
+  padding-left: 40px;
+}
+
+.footer {
+position: fixed;
+bottom: 0;
+height: 50px;
+z-index: 5;
+}
+
+.cards--list {
+  width: 900px;
+  height: 552px;
+  padding: 80px;
+  margin-left: 40px;
+  position: relative;
+  z-index: 4;
+  overflow: auto;
+  margin-top: 44px;
+}
+
+.cards--list::-webkit-scrollbar {
+  display: none; 
+}
+
+.card--img {
+  width: 300px;
+  height: 240px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 2px rgba(191,64,56, 0.4);
+}
+
+.card {
+ margin: 0;
+}
+
+.card--flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.card--innerflex {
+  margin-left: 40px;
+}
+
+.divider--box {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divider {
+  width: 80%;
+}
+
+.card--locationbox > h4 {
+  margin: 0;
+}
+
+.card--title {
+  padding: 0;
+  margin: 0;
+}
+
+.card--description {
+  width: 400px;
+}
+
+.card--plus {
+  width: 250px;
+}

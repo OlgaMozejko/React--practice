@@ -1,0 +1,16 @@
+
+body {
+  margin: 0;
+  padding-top: 40px;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Baloo 2', cursive;
+
+}
+
+p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
