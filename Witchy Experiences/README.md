@@ -1,1 +1,1 @@
-![Alt text](/relative/path/to/example.jpg?raw=true "Optional Title")
+![Screenshoot of the app](./example.jpg?raw=true "Witchy Experiences")
