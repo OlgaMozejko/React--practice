@@ -1,0 +1,99 @@
+.header {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  margin-left: 50px;
+}
+
+.logo {
+  width: 50px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+main {
+  margin: 0;
+  padding-top: 120px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.meme--section {
+  width: 60%;
+}
+
+.meme--form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 40px;
+}
+
+.meme--input {
+  font-family: 'Dosis', sans-serif;
+  border: none;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 5px;
+}
+
+.meme--button {
+  grid-column: 1 / -1;
+  font-family: 'Dosis', sans-serif;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.meme--image {
+  width: 100%;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 5px;
+}
+
+.meme {
+  position: relative;
+  margin-top: 40px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: -1px -1px 0px rgba(6, 24, 44, 0.8),
+  3px 3px 0px rgba(6, 24, 44, 0.8),
+  6px 6px 0px rgba(6, 24, 44, 0.8);
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}

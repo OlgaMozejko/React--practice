@@ -1,0 +1,1 @@
+![Screenshoot of the app](./example.jpg?raw=true "Witchy Experiences")
