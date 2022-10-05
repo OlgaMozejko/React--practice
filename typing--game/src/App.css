@@ -1,0 +1,63 @@
+.App {
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+
+.title {
+  font-size: 20px;
+  text-align:center;
+  text-align: left;
+  width: 50%;
+}
+
+.text--display {
+  width: 50%;
+  text-align: left;
+}
+
+.text--area {
+  border: 3px solid #A1C298;
+  width: 50%;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  background: #C6EBC5;
+  padding: 10px;
+}
+
+.text--area:disabled {
+  border: 3px solid #FA7070;
+  background: #A1C298;
+}
+
+.button {
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #C6EBC5;
+  padding: 10px 20px;
+  width: 50%;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background: #FA7070;
+  cursor: not-allowed;
+}
+
+.sample--text {
+  width: 50%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 20px;
+  word-spacing: 5px;
+}
