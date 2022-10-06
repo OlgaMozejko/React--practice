@@ -32,7 +32,7 @@
 
 .text--area:disabled {
   border: 3px solid #FA7070;
-  background: #A1C298;
+  background: #C6C6C6;
 }
 
 .button {
@@ -43,6 +43,7 @@
   border: none;
   background: #C6EBC5;
   padding: 10px 20px;
+  margin-top: 40px;
   width: 50%;
   cursor: pointer;
 }
@@ -60,4 +61,5 @@
   padding-bottom: 20px;
   font-size: 20px;
   word-spacing: 5px;
+  cursor: pointer;
 }
