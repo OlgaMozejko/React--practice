@@ -1,0 +1,192 @@
+:root {
+  --purple: #B1B2FF;
+  --blue: #AAC4FF;
+  --light-blue: #D2DAFF;
+  --brown: #7D6E83;
+  --light-brown: #F8EDE3;
+}
+
+.header {
+  background-color: var(--light-brown);
+  position: relative;
+  top: 0;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.logo--links {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon--head {
+  color: var(--light-peach);
+}
+
+.title {
+  color: var(--light-peach);
+  font-size: 30px;
+  font-weight: 800;
+  word-spacing: 10px;
+  margin: 0;
+}
+
+.links {
+  text-decoration: 20px;
+  padding: 20px;
+  color: var(--brown);
+  transition: color 0.3s ease;
+}
+
+.links:hover {
+  color: var(--purple);
+}
+
+.image--container {
+  position: relative;
+}
+
+.image--grid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo--section {
+  padding: 10px;
+  display: grid;
+  grid-gap: 2px;
+  grid-auto-rows: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-flow: dense;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.heart {
+  display: flex;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 1.5rem;
+  color: var(--purple);
+}
+
+.plus {
+  display: flex;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 1.5rem;
+  color: var(--purple);
+}
+
+.cart--item{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.cart--img {
+  margin-right: auto;
+  margin-left: 10px; 
+  width: 180px;
+}
+
+.trash {
+  display: flex;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  font-size: 1.5rem;
+  color: var(--purple);
+}
+
+.price--text {
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+.cart--title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  margin-top: -100px;
+  margin-bottom: -70px;
+}
+
+.order--button {
+  display: flex;
+  justify-content: center;
+}
+
+.order--button > button {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 15px 30px;
+  transition: all .2s ease-in-out;
+  background-color: var(--light-brown);
+}
+
+.order--button > button:focus {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.order--button > button:disabled {
+  border-color: lightgray;
+}
+
+.total--cost {
+  text-align: right;
+  font-size: 1.3em;
+  margin-right: 50px;
+  font-size: 24px;
+}
+
+.order--conformation {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.order--conformation > p {
+  background-color: var(--blue);
+  padding: 50px 120px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: var(--light-brown);
+  font-size: 30px;
+  transition: all .2s ease-in-out;
+}
